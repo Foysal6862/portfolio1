@@ -2,10 +2,19 @@ body{
     margin: 0px;
     font-family: 'Noto Sans JP', sans-serif;
 }
+h1{
+    font-size: 50px;
+}
 h2{
     font-size: 50px;
 }
-.name-highlight{
+p{
+    color: dimgray;
+}
+h1{
+    font-size: 50px;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -23,4 +32,42 @@ h2{
 }
 section{
     height: 500px;
+    padding-bottom: 150px   ;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+}
+.experiance-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-srack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,orange);
+    border-image-slice: 1;
+    background: white;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
